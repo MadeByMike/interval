@@ -34,7 +34,7 @@ el.addEventListener('click', function(){
 });
 ```
 ###.restart([until])
-Restart a task. This will reset the 'until' timer which can be optionally changed when resetting.
+Restart a task. This will restart the 'until' timer. The length of the until timer can optionally be changed.
 ```javascript
 // Restart interval for 10 sec
 var el = document.getElementById('restart');
