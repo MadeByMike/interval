@@ -5,8 +5,8 @@ A quick little wrapper to make dealing with intervals in JavaScript slightly eas
 
 ##Usage
 ###interval(every, task, [until])
-every: int - time in milliseconds, how often to execute the task
-task: function - the task to execute
+every: int - time in milliseconds, how often to execute the task <br/>
+task: function - the task to execute <br/>
 until: int - time in milliseconds, when to stop execution of the task
 ```javascript
 // Do task every second for 10 sec
